@@ -4,7 +4,8 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Arial, sans-serif;
-    background-color: linear-gradients(to right, #1334f1, #1ed43d);
+    background-color: linear-gradient(to right, #1334f1, #1ed43d);
+    display:flex;
 }
 
 
