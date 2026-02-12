@@ -1,18 +1,14 @@
-body {
-	margin: 0;
-	padding: 0;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, sans-serif;
-    background-color: linear-gradient(to right, #1334f1, #1ed43d);
-    display:flex;
+body{
+margin: 10px;
+ background: linear-gradient(to bottom, rgb(75, 152, 240), #bdd1e4);
 }
 
 
-.download {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: linear-gradient(to right, #2326ee, #1ed43d);
+.content{
+  background-color: rgb(218, 38, 38);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
 }
