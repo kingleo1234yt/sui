@@ -1,11 +1,14 @@
 body{
 margin: 10px;
- background: linear-gradient(to bottom, rgb(75, 152, 240), #bdd1e4);
+ background: linear-gradient(to bottom, #3886df, #6163e4);
+ justify-content: center;
+ align-items: baseline;
+ display: flex;
 }
 
 
 .content{
-  background-color: rgb(218, 38, 38);
+  background-color: linear-gradient(to right, rgb(64, 53, 218) rgb(49, 162, 238)); 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
