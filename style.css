@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1rem 5%;
   background-color: linear-gradient(to right, #68d6e9, #327ace);
-  color: white;
+  color: rgb(19, 59, 241);
   position: sticky;
   top: 0;
   z-index: 100;
