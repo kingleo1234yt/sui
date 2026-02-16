@@ -79,3 +79,12 @@ body {
   height: 40px;
   width: 120px;
 }
+
+
+.aboutcntnr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5%;
+  background-color: rgb(28, 110, 218);
+}
