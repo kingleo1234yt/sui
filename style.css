@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo on left, Links on right */
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: linear-gradient(to right, #68d6e9, #327ace);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+/* Hover effect for a pro feel */
+.nav-links a:hover {
+  color: #ffcc00; 
+}
+
+/* Register the Regular weight */
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('fonts/DINPro-Regular.woff2') format('woff2'),
+         url('fonts/DINPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Prevents invisible text while loading */
+}
+
+/* Register the Bold weight (if you have it) */
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('fonts/DINPro-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Specific styling for the Navbar */
+.navbar .logo {
+    font-family: 'DIN Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.5px; /* DIN looks great with a tiny bit of spacing */
+}
+
+
+.nav-links a {
+    font-family: 'DIN Pro', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase; /* DIN Pro is famous for looking 'engineered' in caps */
+    font-size: 14px;
+}
